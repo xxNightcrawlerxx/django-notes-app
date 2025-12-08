@@ -22,7 +22,7 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
-## Nginx - Reverse Proxy Configuration
+## Nginx - Reverse Proxy Configuration / Load Balancer
 
 Install Nginx reverse proxy to make this application available
 
